@@ -8,3 +8,7 @@ updates:
   insecure-external-code-execution: deny
   allow:
     - dependency-type: "all"
+  schedule:
+    interval: "daily"
+    time: "10:00"
+    timezone: "America/New_York"    
