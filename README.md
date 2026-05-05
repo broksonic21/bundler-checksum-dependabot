@@ -20,7 +20,7 @@ bundle lock --add-checksums
 
 * let Dependabot create a PR. 
 
-We see this behavior on every PR of ours. Running dependabot locally puts the bundler checksum back, causing churn.
+We see this behavior on every PR of ours. Running `bundle install` locally puts the bundler checksum back, causing churn.
 
 For Bundler:
 
