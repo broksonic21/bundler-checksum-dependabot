@@ -1,0 +1,10 @@
+version: 2
+enable-beta-ecosystems: true
+
+updates:
+- package-ecosystem: "bundler"
+  directory: "/"
+  versioning-strategy: increase
+  insecure-external-code-execution: deny
+  allow:
+    - dependency-type: "all"
