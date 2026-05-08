@@ -1,18 +1,23 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    byebug (11.1.3)
+    byebug (13.0.0)
+      reline (>= 0.6.0)
+    io-console (0.8.2)
+    reline (0.6.3)
+      io-console (~> 0.5)
 
 PLATFORMS
   arm64-darwin
   ruby
 
 DEPENDENCIES
-  byebug (= 11.1.3)
+  byebug (= 13.0.0)
 
 CHECKSUMS
-  bundler (4.0.11) sha256=5bcec0fb78302e48d02ee46f10ee6e6942be647ba5b44a6d1ddfda9a240ce785
-  byebug (11.1.3) sha256=2485944d2bb21283c593d562f9ae1019bf80002143cc3a255aaffd4e9cf4a35b
+  byebug (13.0.0) sha256=d2263efe751941ca520fa29744b71972d39cbc41839496706f5d9b22e92ae05d
+  io-console (0.8.2) sha256=d6e3ae7a7cc7574f4b8893b4fca2162e57a825b223a177b7afa236c5ef9814cc
+  reline (0.6.3) sha256=1198b04973565b36ec0f11542ab3f5cfeeec34823f4e54cebde90968092b1835
 
 BUNDLED WITH
   4.0.11
